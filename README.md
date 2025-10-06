@@ -112,6 +112,34 @@
 ## OUTPUT
 <img width="1920" height="1200" alt="Cuplikan layar 2025-10-06 175130" src="https://github.com/user-attachments/assets/d05775e6-a5a0-40c7-956d-07402b507a1d" />
 
-       
+# Menggabungkan Sel Data
+```html     
+<table border="1" cellpadding="6" cellspacing="0">
+    <thead>
+        <tr>
+            <th>No.</th>
+            <th>Fakultas</th>
+            <th>Program Studi</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+            <td>1.</td>
+            <td rowspan="3">Teknik</td>
+            <td>Teknik Informatika</td>
+    </tr>
+    <tr>
+            <td>2.</td>
+            <td>Teknik Industri</td>
+    </tr>
+    <tr>
+            <td>3.</td>
+            <td>Teknik Lingkungan</td>
+        </tr>
+    </tbody>
+</table>
+```
+## OUTPUT
+<img width="1920" height="1200" alt="Cuplikan layar 2025-10-06 175356" src="https://github.com/user-attachments/assets/21644353-1217-4377-af8c-bcef146c0270" />
 
 
